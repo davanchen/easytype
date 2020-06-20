@@ -1,0 +1,5 @@
+interface IReflectable {
+    getSchema();
+
+    getypeInfo();
+};

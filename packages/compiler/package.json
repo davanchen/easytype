@@ -1,0 +1,27 @@
+{
+   "name": "@easytype/compiler",
+   "version": "0.0.63",
+   "description": "Runtime type system based on typescript.",
+   "main": "index.js",
+   "scripts": {
+      "build": "gulp compiler:build"
+   },
+   "author": "davan.c",
+   "license": "ISC",
+   "dependencies": {
+      "typescript": "^3.8.3",
+      "code-block-writer": "^10.0.0",
+      "chalk": "^3.0.0",
+      "comment-parser": "^0.7.5",
+      "@phenomnomnominal/tsquery": "^4.0.0",
+      "arg": "^4.1.0",
+      "diff": "^4.0.1",
+      "make-error": "^1.1.1",
+      "source-map-support": "^0.5.13",
+      "yn": "3.1.1"
+   },
+   "devDependencies": {},
+   "peerDependencies": {
+      "@easytype/core": "^0.0.96"
+   }
+}

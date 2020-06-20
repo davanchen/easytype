@@ -1,0 +1,28 @@
+{
+   "name": "@easytype/cli",
+   "version": "0.0.13",
+   "description": "Runtime type system based on typescript.",
+   "main": "easy.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": "davan.c",
+   "license": "ISC",
+   "bin": {
+      "easy": "easy.js"
+   },
+   "devDependencies": {
+      "@types/node": "^12.7.8",
+      "@types/yargs": "^15.0.4"
+   },
+   "dependencies": {
+      "inquirer": "^6.3.1",
+      "gulp": "^4.0.2",
+      "gulp-typescript": "^5.0.1",
+      "merge2": "^1.3.0",
+      "yargs": "^15.3.0"
+   },
+   "peerDependencies": {
+      "@easytype/compiler": "^0.0.53"
+   }
+}

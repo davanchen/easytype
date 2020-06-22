@@ -164,6 +164,14 @@ export class UserLoginDto implements Inherits<User> {
 - 低版本的TypeScript（3.7以下）会有一些问题，所以用最新的TSC编译吧。
 
 ### 插播一条广告
-即将推出基于EasyType+nest.js的全家桶开发包，基本上把EasyType的使用场景都实现了，尽情期待。
+即将推出基于EasyType+nest.js的全家桶开发包，尽情期待。
+项目地址: [https://github.com/davanchen/easynest](https://github.com/davanchen/easynest)
 
+### 演示：借助vscode插件(即将开源)一键生成proto
+![](https://tmyx.oss-cn-hangzhou.aliyuncs.com/github/Code_7GLTwoRGAx.png)
+![](https://tmyx.oss-cn-hangzhou.aliyuncs.com/github/Code_oBYASf68Uo.png)
 
+### 演示：EasyNest API文档模块自动生成API描述（枚举、控制器、模型）
+![](https://tmyx.oss-cn-hangzhou.aliyuncs.com/github/screenshot_controller.PNG)
+![](https://tmyx.oss-cn-hangzhou.aliyuncs.com/github/screenshot_enums.PNG)
+![](https://tmyx.oss-cn-hangzhou.aliyuncs.com/github/screenshot_models.PNG)
